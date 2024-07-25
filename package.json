@@ -1,0 +1,48 @@
+{
+  "name": "pgassist",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.29.1",
+    "@langchain/anthropic": "^0.2.6",
+    "@prisma/client": "^5.17.0",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-scroll-area": "^1.1.0",
+    "@radix-ui/react-select": "^2.1.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-tabs": "^1.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "googleapis": "^140.0.1",
+    "intro.js": "^7.2.0",
+    "intro.js-react": "^1.0.0",
+    "langchain": "^0.2.10",
+    "lucide-react": "^0.414.0",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "svix": "^1.25.0",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "typewriter": "^9.2.0",
+    "typewriter-effect": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "prisma": "^5.17.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
