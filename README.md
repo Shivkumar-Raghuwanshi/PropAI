@@ -15,8 +15,9 @@ PropAI is an advanced, AI-powered platform revolutionizing the accommodation sea
 5. [Usage](#usage)
    - [Running the Application](#running-the-application)
    - [User Guide](#user-guide)
-6. [Deployment](#deployment)
-7. [Contact](#contact)
+6. [Containerization] (Docker)
+7. [Deployment](#deployment)
+8. [Contact](#contact)
 
 ## Features
 
@@ -187,6 +188,13 @@ Create a `.env` file in the root directory and add the following variables:
 - npx prisma generate
 - npx prisma migrate dev
 
+## Containerization (Docker)
+
+The application is containerized using Docker for easy deployment and scalability. A `Dockerfile` is provided in the project root, containing instructions for building the Docker image.
+If you want to run the project using Docker, you can pull the Docker image from Docker Hub and run it:
+
+- docker pull shivkumar56/propai:latest
+- docker run -d -p 3000:3000 shivkumar56/propai
 ## Usage
 
 ### Running the Application
