@@ -1,7 +1,8 @@
 # PropAI: Your Comprehensive Property Assistant
 
 PropAI is an advanced, AI-powered platform revolutionizing the accommodation search process. Developed by Shivkumar Raghuwanshi, PropAI offers expert guidance across a wide spectrum of housing options through its specialized AI assistants.
-
+## Watch the video by clicking on the thumbnail below:
+[![API Endpoints](https://img.youtube.com/vi/jg9qctimD_c/maxresdefault.jpg)](https://www.youtube.com/embed/jg9qctimD_c?si=un3Tlk12GHQ2drbh)
 ## Table of Contents
 
 1. [Features](#features)
