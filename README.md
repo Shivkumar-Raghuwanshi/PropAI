@@ -179,7 +179,7 @@ Create a `.env` file in the root directory and add the following variables:
 - DATABASE_URL=your_supabase_postgres_url
 - DIRECT_URL = your_supabase_postgres_url
 <!-- if you are using postgresql docker container -->
-- DATABASE_DOCKER_URL = "postgresql://<username>:<password>@<host>:<port>/<database_name>"
+- `DATABASE_DOCKER_URL = postgresql://<username>:<password>@<host>:<port>/<database_name>`
 - WEBHOOK_SECRET = your_webhook_secret
 
 2. Set up the database:
