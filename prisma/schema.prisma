@@ -9,9 +9,11 @@ generator client {
 }
 
 datasource db {
-  provider  = "postgresql"
-  url       = env("DATABASE_URL")
-  directUrl = env("DIRECT_URL")
+  provider = "postgresql"
+  // For docker with postgresql database container
+  // url      = env("DATABASE_DOCKER_URL")
+   url       = env("DATABASE_URL")  // For Supabae Postgresql
+   directUrl = env("DIRECT_URL")
 }
 
 model User {

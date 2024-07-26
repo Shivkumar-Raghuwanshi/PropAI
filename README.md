@@ -159,8 +159,8 @@ You will also need accounts with the following services:
 ### Installation
 
 1. Clone the repository:
-- git clone https://github.com/Shivkumar-Raghuwanshi/propai.git
-- cd propai
+- git clone https://github.com/Shivkumar-Raghuwanshi/PropAI.git
+- cd PropAI
 2. Install dependencies:
 - npm install
 
@@ -178,6 +178,8 @@ Create a `.env` file in the root directory and add the following variables:
 - NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 - DATABASE_URL=your_supabase_postgres_url
 - DIRECT_URL = your_supabase_postgres_url
+<!-- if you are using postgresql docker container -->
+- DATABASE_DOCKER_URL = "postgresql://<username>:<password>@<host>:<port>/<database_name>"
 - WEBHOOK_SECRET = your_webhook_secret
 
 2. Set up the database:
